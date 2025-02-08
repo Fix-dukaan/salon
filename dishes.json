@@ -1,0 +1,78 @@
+[
+    {
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil.",
+      "price": 9.99
+    },
+    {
+      "name": "Pasta Alfredo",
+      "description": "Creamy pasta with Alfredo sauce and Parmesan cheese.",
+      "price": 12.99
+    },
+    {
+      "name": "Caesar Salad",
+      "description": "Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan.",
+      "price": 7.99
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "description": "Grilled chicken pieces cooked in a spiced creamy tomato curry.",
+      "price": 14.99
+    },
+    {
+      "name": "Sushi Platter",
+      "description": "Assorted sushi rolls with soy sauce and pickled ginger.",
+      "price": 18.99
+    },
+    {
+      "name": "Veggie Burger",
+      "description": "Grilled vegetable patty served in a bun with lettuce, tomato, and sauce.",
+      "price": 10.99
+    },
+    {
+      "name": "Pad Thai",
+      "description": "Traditional Thai stir-fried noodles with shrimp, peanuts, and lime.",
+      "price": 13.99
+    },
+    {
+      "name": "Tacos al Pastor",
+      "description": "Mexican-style pork tacos served with pineapple and cilantro.",
+      "price": 8.99
+    },
+    {
+      "name": "Ramen Bowl",
+      "description": "Japanese noodle soup with pork, boiled egg, and vegetables.",
+      "price": 12.99
+    },
+    {
+      "name": "Cheeseburger",
+      "description": "Juicy beef patty with melted cheese, lettuce, and tomato on a bun.",
+      "price": 11.99
+    },
+    {
+      "name": "Buffalo Wings",
+      "description": "Crispy chicken wings tossed in spicy buffalo sauce.",
+      "price": 9.99
+    },
+    {
+      "name": "Paneer Butter Masala",
+      "description": "Soft paneer cubes cooked in a rich and creamy tomato gravy.",
+      "price": 13.49
+    },
+    {
+      "name": "Fish and Chips",
+      "description": "Golden-fried fish served with crispy fries and tartar sauce.",
+      "price": 15.99
+    },
+    {
+      "name": "Greek Salad",
+      "description": "Fresh salad with cucumbers, tomatoes, olives, and feta cheese.",
+      "price": 8.49
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "description": "Classic pizza topped with spicy pepperoni slices and mozzarella.",
+      "price": 10.99
+    }
+  ]
+  
