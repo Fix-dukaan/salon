@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Luxury Locks",
+    "address": "456 Style Street, Manhattan, NY",
+    "services": [
+      { "service_name": "Haircuts", "price": 35 },
+      { "service_name": "Blow Dry", "price": 45 },
+      { "service_name": "Hair Coloring", "price": 80 }
+    ],
+    "availableDates": [
+      { "date": "2025-02-15", "availableTimes": ["10:00 AM", "1:00 PM", "3:00 PM"] },
+      { "date": "2025-02-17", "availableTimes": ["11:00 AM", "2:00 PM", "5:00 PM"] },
+      { "date": "2025-02-19", "availableTimes": ["9:00 AM", "12:00 PM", "4:00 PM"] }
+    ],
+    "image": "https://source.unsplash.com/600x400/?salon,hair"
+  },
+  {
+    "id": "2",
+    "name": "Urban Styles",
+    "address": "789 Trendy Ave, Los Angeles, CA",
+    "services": [
+      { "service_name": "Haircuts", "price": 30 },
+      { "service_name": "Beard Trim", "price": 20 },
+      { "service_name": "Hot Towel Shave", "price": 25 }
+    ],
+    "availableDates": [
+      { "date": "2025-02-15", "availableTimes": ["9:30 AM", "12:30 PM", "4:30 PM"] },
+      { "date": "2025-02-16", "availableTimes": ["10:00 AM", "2:00 PM", "5:00 PM"] },
+      { "date": "2025-02-20", "availableTimes": ["8:00 AM", "11:00 AM", "3:00 PM"] }
+    ],
+    "image": "https://source.unsplash.com/600x400/?barbershop,haircut"
+  },
+  {
+    "id": "3",
+    "name": "The Chic Lounge",
+    "address": "101 Fashion Blvd, San Francisco, CA",
+    "services": [
+      { "service_name": "Haircuts", "price": 40 },
+      { "service_name": "Hair Extensions", "price": 120 },
+      { "service_name": "Keratin Treatment", "price": 150 }
+    ],
+    "availableDates": [
+      { "date": "2025-02-16", "availableTimes": ["10:00 AM", "1:00 PM", "3:30 PM"] },
+      { "date": "2025-02-18", "availableTimes": ["9:30 AM", "12:30 PM", "2:30 PM"] },
+      { "date": "2025-02-22", "availableTimes": ["8:00 AM", "11:00 AM", "4:00 PM"] }
+    ],
+    "image": "https://source.unsplash.com/600x400/?beauty,salon"
+  },
+  {
+    "id": "4",
+    "name": "Glamour Cuts",
+    "address": "101 Beauty Blvd, Brooklyn, NY",
+    "services": [
+      { "service_name": "Haircuts", "price": 28 },
+      { "service_name": "Facials", "price": 50 },
+      { "service_name": "Manicures", "price": 20 }
+    ],
+    "availableDates": [
+      { "date": "2025-02-15", "availableTimes": ["10:00 AM", "1:00 PM", "3:00 PM"] },
+      { "date": "2025-02-16", "availableTimes": ["11:00 AM", "2:00 PM", "4:00 PM"] },
+      { "date": "2025-02-18", "availableTimes": ["9:00 AM", "12:00 PM", "2:00 PM"] }
+    ],
+    "image": "https://source.unsplash.com/600x400/?spa,facial"
+  },
+  {
+    "id": "5",
+    "name": "Elite Hair Studio",
+    "address": "202 Prestige Lane, Miami, FL",
+    "services": [
+      { "service_name": "Haircuts", "price": 38 },
+      { "service_name": "Blowout", "price": 55 },
+      { "service_name": "Scalp Massage", "price": 45 }
+    ],
+    "availableDates": [
+      { "date": "2025-02-17", "availableTimes": ["10:30 AM", "1:30 PM", "4:30 PM"] },
+      { "date": "2025-02-19", "availableTimes": ["9:00 AM", "12:00 PM", "3:00 PM"] },
+      { "date": "2025-02-21", "availableTimes": ["11:00 AM", "2:00 PM", "5:00 PM"] }
+    ],
+    "image": "https://source.unsplash.com/600x400/?hairdresser,style"
+  }
+]
