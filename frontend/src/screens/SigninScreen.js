@@ -1,13 +1,41 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native';
+import axios from 'axios'; // Import axios for HTTP requests
+import AsyncStorage from '@react-native-async-storage/async-storage'; // For storing JWT token
 
 const SigninScreen = ({ navigation }) => {
+  const salon = navigation.state.params?.salon;
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSignIn = () => {
-    // Handle sign-in logic here
-    console.log('Sign In with:', email, password);
+  const handleSignIn = async () => {
+    // Basic validation to ensure fields are not empty
+    if (!email || !password) {
+      Alert.alert('Error', 'Please fill in both email and password');
+      return;
+    }
+
+    try {
+      const response = await axios.post('http://192.178.27.27:5000/auth/login', { //your ipv4 address instead of 192.178.27.27
+        email,
+        password,
+      });
+
+      if (response.data.token) {
+        // Save JWT token in AsyncStorage
+        await AsyncStorage.setItem('token', response.data.token);
+
+        // Navigate to SlotBooking screen
+        navigation.navigate('SlotBooking',{salon});
+      } else {
+        // Handle case where no token is returned
+        Alert.alert('Error', 'Failed to sign in');
+      }
+    } catch (error) {
+      console.error('Sign In Error:', error);
+      Alert.alert('Error', error.response?.data?.error || 'Something went wrong');
+    }
   };
 
   return (
@@ -54,7 +82,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#f96163',
+    color: '#8A25B2',
     marginBottom: 20,
   },
   input: {
@@ -69,7 +97,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   signinButton: {
-    backgroundColor: '#f96163',
+    backgroundColor: '#8A25B2',
     paddingVertical: 12,
     borderRadius: 10,
     width: '100%',
@@ -87,7 +115,7 @@ const styles = StyleSheet.create({
     color: '#666',
   },
   signupLink: {
-    color: '#f96163',
+    color: '#8A25B2',
     fontWeight: 'bold',
   },
 });

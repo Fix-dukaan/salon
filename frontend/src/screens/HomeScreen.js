@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     marginBottom: 100
   },
   foodText: {
-    color: "#f96163",
+    color: "#8A25B2",
     fontSize: 22,
     fontWeight: 'bold'
   },
@@ -47,11 +47,11 @@ const styles = StyleSheet.create({
   centerText: {
     fontSize: 26, 
     fontWeight: "bold",
-    color: "#f96163", // Highlighted color for "Confidence!"
+    color: "#8A25B2", // Highlighted color for "Confidence!"
     textAlign: "center", // Center-align "Confidence!"
   },
   button: {
-    backgroundColor: '#f96163',
+    backgroundColor: '#8A25B2',
     borderRadius: 18,
     paddingVertical: 18,
     width: '80%',
