@@ -42,7 +42,7 @@ const SalonListScreen = ({ navigation }) => {
         
         const updatedSalons = data.map(salon => {
           
-          if (salon.image) {
+          if (!salon.image) {
            
             salon.image = null;  // This will trigger the fallback image in the <Image /> component
           }
