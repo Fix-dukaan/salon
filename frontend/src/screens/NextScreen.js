@@ -36,7 +36,7 @@ const SalonListScreen = ({ navigation }) => {
 
   useEffect(() => {
     // Fetch data from the backend when the component mounts
-    fetch("http://192.178.27.27:5000/api/salons")  // //your ipv4 address instead of 192.178.27.27
+    fetch("http://192.168.1.10:5000/api/salons")  // //your ipv4 address instead of 192.178.27.27
       .then((response) => response.json())
       .then((data) => {
         
